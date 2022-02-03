@@ -126,7 +126,7 @@ class RB_tree:
 
     def show(self, node):
         print(node.color,end=" ")
-        
+
         if node.left:
             self.show(node.left)
         if node.right:
